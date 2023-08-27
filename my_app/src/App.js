@@ -1,13 +1,21 @@
 
 import './App.css';
+import Main from './Components/Main';
+import Footer from './Components/Footer';
+import Nav from './Components/nav';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola Mundo
-        
-      </h1>
-    </div>
+    <> 
+   <h1>Hola Gente</h1>   
+      <Nav/>     
+      <Main/>    
+      <Footer/>  
+      
+      
+              
+    </>
   );
 }
 
