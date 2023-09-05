@@ -1,15 +1,28 @@
 import React from 'react'
-
+import '../Style/nav.css'
 function Nav() {
     return (
-        <nav>
-            <img
-                class name='logo'
-                src={require('../Imagen/icons_assets/bruchetta.svg')}
-                alt='logo' />
+        < div className='navbar'>           
+                <img
+                    className='logo'
+                    src={require('../Imagen/nav-logo.png')}
+                    alt='logo' />
+           
+          
+                <ul>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Menu</a> </li>
+                    <li><a href='#'>Reservation</a></li>
+                    <li><a href='#'>Order Online</a></li>
+                    <li><a href='#'>Login</a></li>
+                </ul>
+          
 
-        </nav>)
-        ;
+
+        </div>
+
+    );
 }
 
 export default Nav

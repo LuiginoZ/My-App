@@ -1,0 +1,35 @@
+.navbar {
+  height: 12vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 180, 119);
+}
+
+.logo {
+  height: auto;
+  width: 14%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 100px;
+}
+
+ul {
+  margin-right: 10px;
+  margin-left: 160px;
+
+}
+li {
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 12px;
+
+
+}

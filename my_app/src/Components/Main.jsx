@@ -1,6 +1,10 @@
+import '../Style/main.css'
+import Hero from '../Sub-components/hero'
 function Main(){
     return(
-        <h1>hola gente</h1>
+        <main className='main'>
+            <Hero/>
+        </main> 
     )
 }
 export default Main

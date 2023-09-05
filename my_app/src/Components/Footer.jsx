@@ -1,7 +1,10 @@
-function Footers(){
+import '../Style/footer.css'
+function Footer(){
     return (
-        <h2>hola mundo</h2>
+        <footer className='footer'>
+
+        </footer>
     )
 }
 
-export default Footers
+export default Footer
